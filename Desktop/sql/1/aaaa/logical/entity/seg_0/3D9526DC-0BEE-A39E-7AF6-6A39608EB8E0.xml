@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3D9526DC-0BEE-A39E-7AF6-6A39608EB8E0" name="Deapartment">
+<createdBy>veneg</createdBy>
+<createdTime>2025-06-04 13:37:56 UTC</createdTime>
+<ownerDesignName>aaaa</ownerDesignName>
+<engineerTo>
+<item key="59AB91FC-D89E-1952-26CF-76B7AA0EAE0F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="61CC2648-451C-711B-12C0-261258966141">
+<createdBy>veneg</createdBy>
+<createdTime>2025-06-04 13:38:14 UTC</createdTime>
+<ownerDesignName>aaaa</ownerDesignName>
+<engineerTo>
+<item key="59AB91FC-D89E-1952-26CF-76B7AA0EAE0F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="D29177DC-880A-AD60-B849-363E985F024F">
+<createdBy>veneg</createdBy>
+<createdTime>2025-06-04 13:38:19 UTC</createdTime>
+<ownerDesignName>aaaa</ownerDesignName>
+<engineerTo>
+<item key="59AB91FC-D89E-1952-26CF-76B7AA0EAE0F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="supervisor" id="D595AF38-194D-96FF-0324-D44A437369CC">
+<createdBy>veneg</createdBy>
+<createdTime>2025-06-04 13:38:22 UTC</createdTime>
+<ownerDesignName>aaaa</ownerDesignName>
+<engineerTo>
+<item key="59AB91FC-D89E-1952-26CF-76B7AA0EAE0F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9F7D26FF-5BD8-BC96-E10E-71FF2CCD2906" name="Deapartment PK">
+<createdBy>veneg</createdBy>
+<createdTime>2025-06-04 13:38:17 UTC</createdTime>
+<ownerDesignName>aaaa</ownerDesignName>
+<engineerTo>
+<item key="59AB91FC-D89E-1952-26CF-76B7AA0EAE0F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>61CC2648-451C-711B-12C0-261258966141</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

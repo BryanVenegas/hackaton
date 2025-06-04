@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0183D612-AFF3-E96E-C4FF-510CD15537E2" name="Employe">
+<createdBy>veneg</createdBy>
+<createdTime>2025-06-04 13:38:30 UTC</createdTime>
+<ownerDesignName>aaaa</ownerDesignName>
+<engineerTo>
+<item key="59AB91FC-D89E-1952-26CF-76B7AA0EAE0F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="A3083CD5-E50C-EA06-0017-7581DD216C4F">
+<createdBy>veneg</createdBy>
+<createdTime>2025-06-04 13:38:40 UTC</createdTime>
+<ownerDesignName>aaaa</ownerDesignName>
+<engineerTo>
+<item key="59AB91FC-D89E-1952-26CF-76B7AA0EAE0F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="DB81EB1C-088C-CE35-030F-DC2AF8425955">
+<createdBy>veneg</createdBy>
+<createdTime>2025-06-04 13:38:51 UTC</createdTime>
+<ownerDesignName>aaaa</ownerDesignName>
+<engineerTo>
+<item key="59AB91FC-D89E-1952-26CF-76B7AA0EAE0F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Phone" id="B7B6F37A-A8EE-5B24-72B5-2A8372AF39B3">
+<createdBy>veneg</createdBy>
+<createdTime>2025-06-04 13:38:55 UTC</createdTime>
+<ownerDesignName>aaaa</ownerDesignName>
+<engineerTo>
+<item key="59AB91FC-D89E-1952-26CF-76B7AA0EAE0F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="CB37EAED-A6DA-B136-3F77-EFF204708BA4">
+<createdBy>veneg</createdBy>
+<createdTime>2025-06-04 13:40:19 UTC</createdTime>
+<generatorID>3CE797D9-1BC5-3FFC-D1A7-03372E4F09EF</generatorID>
+<ownerDesignName>aaaa</ownerDesignName>
+<engineerTo>
+<item key="59AB91FC-D89E-1952-26CF-76B7AA0EAE0F" value="true"/>
+</engineerTo>
+<referedAttribute>61CC2648-451C-711B-12C0-261258966141</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Proyect_ID" id="AC6921F2-3FCD-16AF-A5EA-182F1EFEB7E0">
+<createdBy>veneg</createdBy>
+<createdTime>2025-06-04 13:40:26 UTC</createdTime>
+<generatorID>08F365B8-9757-9D18-7414-7C6B450A7EC0</generatorID>
+<ownerDesignName>aaaa</ownerDesignName>
+<engineerTo>
+<item key="59AB91FC-D89E-1952-26CF-76B7AA0EAE0F" value="true"/>
+</engineerTo>
+<referedAttribute>1275C615-8BC7-E418-DA23-5AA909F900B8</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="43113564-7361-5E7B-E82C-85455AD54DBA" name="Employe PK">
+<createdBy>veneg</createdBy>
+<createdTime>2025-06-04 13:38:50 UTC</createdTime>
+<ownerDesignName>aaaa</ownerDesignName>
+<engineerTo>
+<item key="59AB91FC-D89E-1952-26CF-76B7AA0EAE0F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A3083CD5-E50C-EA06-0017-7581DD216C4F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
